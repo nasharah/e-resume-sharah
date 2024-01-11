@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-resume website</title>
+  <link rel="stylesheet" href="about.css">
+<body>
+<header>
+
+  <img class="banner-image" src="picture/pic banner.png" alt="banner" style="width: 100%; height:80%" title="banner">
+</header>
+
+<section>
+
+  <div id="sidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">Personal</a>
+    <a href="Education.html">Education</a>
+    <a href="Skills.html">Skills</a>
+    <a href="Gallery.html">Gallery</a>
+  </div>
+
+<div id="main">
+  <span style="font-size: 30px; cursor: pointer" onclick="openNav()">&#9776; </span>
+</div>
+
+<script>
+  function openNav() {
+    document.getElementById("sidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor="#BCC4C7";
+  }
+function closeNav() {
+      document.getElementById("sidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+      document.body.style.backgroundColor = "#BCC4C7";
+    }
+    </script>   
+    <article id="content" class="content">
+      <h1><b>ABOUT ME</b></h1>
+      <br><img src="picture/selfie.jpg" style="width: 20%; border: solid; text-align: center" title="Picture"/>
+      <p><b>Name:</b> Nur Nasharah Binti Mohammad Anuar</p>
+      <p><b>Profession:</b>Student</p>
+      <p><b>Phone number:</b>017-9923621</p>
+      <p><b>Email address:</b>nasharahnur@gmail.com</p>
+      <p><b>Self Introduction video:</b></p>
+      <video src="video/ims456 video e-resume.mp4" style="width: 25%; border: solid;height: 30%; text-align: center" title="video" controls></video>
+    </article> 
+
+ <!--socialmedialinkstart-->
+<aside id="aside" class="aside">
+  <h2><span style='font-size:30px;'>&#128222;</span><b>Contacts:</b></h2>
+  
+  
+ 
+  <ul>
+  <li>
+      <img src="picture/instagram logo.png" style="width: 20%;" title="INSTAGRAM"><br>
+      <a href="https://www.instagram.com/sharah_anuar/">INSTAGRAM</a><br>
+      
+      <p> </p>
+
+      <img src="picture/tiktok logo.png" style="width: 20%;" title="TIKTOK"><br>
+      <a href="https://www.tiktok.com/@sharah_anuar?lang=en">TIKTOK</a><br>
+      <p> </p>
+
+      <img src="picture/youtube(2).png" style="width: 20%;" title="YOUTUBE"><br>
+      <a href="https://www.youtube.com/channel/UC0r6STyc2S7pemp0DXquCDA">YOUTUBE</a><br>
+      <p> </p>
+
+      <img src="picture/gmail(3).png"style="width: 20%;" title="WHATSAPP"><br>
+      <a href="https://mail.google.com/mail/u/0/#inbox">EMAIL</a><br>
+  </ul>
+  </li>
+  </aside>
+  </section>
+
+<!--END SOCIAL MEDIA-->
+<footer>
+
+  <p>Copyright©2023 designed by NUR NASHARAH</p>
+  <p>  All rights Reserved</p> 
+  <a href="education.html">EDUCATION</a><br>
+
+</footer>
+</body>
+</html>
